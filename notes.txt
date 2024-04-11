@@ -1,0 +1,44 @@
+// brain of back-end - index.js
+
+Installation: 
+    npm init -y
+    npm install express
+    npm i nodemon -D
+    npm install mongodb
+    npm install mongoose
+
+const express = require('express')
+const app = express()
+// Using Node.js `require()`
+const mongoose = require('mongoose');
+
+// Using ES6 imports
+// import mongoose from 'mongoose';
+
+undefined = reason: we are not allowed to pass json through our NodeJs by default we have to use 'middle-vare
+
+This line is used use the other format to add the data...
+
+mongoose:-
+    // add our password in the place('<password>') and I've written my collection name 'Node-API'
+
+    // after connecting to database then connect to the server...
+
+
+HTTP methods:
+    GET - Used to retrive the data(to get the data from the stored place)
+    POST - Add a data
+    PUT - To update a data 
+    DELETE - delete the data 
+
+.gitignore -
+
+        If we include any files in this '.gitignore' it's not gonna be deployed and will not push on the Repo...
+
+
+
+GIT COMMANDS:- 
+
+    'git init' - is a command used to initialize a new Git repository in a directory.
+
+    'git add .' - adds all the changes (new, modified, deleted) in the current directory
